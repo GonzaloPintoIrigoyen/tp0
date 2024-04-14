@@ -33,7 +33,7 @@ int main(void)
 	puerto = config_get_string_value(config, "PUERTO");
 	valor = config_get_string_value(config, "CLAVE");
 	
-	// Loggeamos el valor de config
+	// Loggeamos el valor de config 
 
 	log_info(logger, "Valores de la config: CLAVE: %s - PUERTO: %s - IP: %s", valor , puerto , ip );
 
@@ -92,7 +92,7 @@ void leer_consola(t_log* logger)
 		leido = readline("> ");
 	}
 	
-	// log_info(logger, "Finalizo el while" ); (lo hago texto para que no moleste la ejecucion)
+	// log_info(logger, "Finalizo el while" ); (lo hago texto para que no moleste la ejecucion )
 
 	// ¡No te olvides de liberar las lineas antes de regresar!
 
